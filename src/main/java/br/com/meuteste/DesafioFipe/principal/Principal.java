@@ -15,9 +15,9 @@ import java.util.Scanner;
 public class Principal {
 
     private final String ENDERECO = "https://parallelum.com.br/fipe/api/v1/";
-    private Scanner scanner = new Scanner(System.in);
-    private ConsumoApi consumo = new ConsumoApi();
-    private ConverteDados convertor = new ConverteDados();
+    private final Scanner scanner = new Scanner(System.in);
+    private final ConsumoApi consumo = new ConsumoApi();
+    private final ConverteDados convertor = new ConverteDados();
 
     public void exibirMenu() throws IOException, InterruptedException {
         //Primeiro menu
