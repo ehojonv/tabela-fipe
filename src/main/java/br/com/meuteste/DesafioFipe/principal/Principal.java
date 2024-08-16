@@ -21,11 +21,16 @@ public class Principal {
 
     public void exibirMenu() throws IOException, InterruptedException {
         //Primeiro menu
-        System.out.println("Bem vindo ao procurador de preço de veiculos!" +
-                "\n1 - Carros" +
-                "\n2 - Motos" +
-                "\n3 - Caminhões" +
-                "\nDigite o numero do tipo de veiculo para a busca:");
+        System.out.println("""
+                Bem vindo ao procurador de preço de veiculos!\
+
+                1 - Carros\
+
+                2 - Motos\
+
+                3 - Caminhões\
+
+                Digite o numero do tipo de veiculo para a busca:""");
         try {
 
             int busca;
